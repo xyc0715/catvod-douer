@@ -144,7 +144,8 @@ var index_config_default = {
     username: "CatPawPlay",
     password: "CatPawPlay",
     serverName: "CatPawPlay",
-    enable: true
+    enable: true,
+    searchSourcePrefix: true
   },
   y115: {
     cookie: ""
