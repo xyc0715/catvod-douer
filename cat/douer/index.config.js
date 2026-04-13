@@ -127,11 +127,10 @@ var getIPAddress = function() {
 // src/index.config.js
 var builtinDanmuAddress = `http://${getIPAddress()}:9321`;
 var index_config_default = {
-  // 阿里目前用不了，暂时注释
-  // ali: {
-  //     token: '',
-  //     token280: 'token280',
-  // },
+  ali: {
+    token: "",
+    prefix: "阿里"
+  },
   quark: {
     cookie: ""
   },
