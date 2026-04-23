@@ -201,9 +201,7 @@ var index_config_default = {
   customSpiders: {
     enabled: true,
     dir: "",
-    urls: [
-      "https://raw.githubusercontent.com/Silent1566/OmniBox-Spider/main/影视/采集/瓜子.js"
-    ],
+    urls: [],
     strict: false,
     allowOverride: false,
     cacheTtlMs: 5e3,
