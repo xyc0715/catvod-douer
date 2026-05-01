@@ -178,6 +178,10 @@ var index_config_default = {
     cloudTypes: ""
   },
   tgchannel: {},
+  tgfilebot: {
+    url: "http://127.0.0.1:8080",
+    password: ""
+  },
   sites: {
     list: []
   },
